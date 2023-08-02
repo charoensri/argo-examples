@@ -2,5 +2,7 @@
 replicas: 5
 
 configmap:
+  name: myhelmapp-configmap-v-seri1
   data:
     CUSTOM_HEADER: 'This is on the DEV environment! This to test ArgoCD when I commit! test123'
+
